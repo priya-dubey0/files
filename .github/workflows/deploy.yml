@@ -37,6 +37,7 @@ jobs:
         run: |
           ls -l
           find scheme syllabus timetable -type f -name '*.html' | sed 's|^scheme/|https://random-website.com/scheme/|; s|^syllabus/|https://random-website.com/syllabus/|; s|^timetable/|https://random-website.com/timetable/|' > listofurls.txt
+          find scheme syllabus timetable -type f -name '*.html' -exec sed -i 's/<\/head>/<link rel="sitemap" type="application\/xml" title="Sitemap" href="\/sitemap.xml"><\/head>/g' {} +
           npm install --save sitemap
           cd ./node_modules/.bin/
           npx sitemap < ../../listofurls.txt>websiteurls.txt
@@ -44,6 +45,8 @@ jobs:
           cd ../../
           mkdir deploy
           mv scheme syllabus timetable deploy/
+          mv sitemap.xml deploy/sitemap.xml
+          mv index.html deploy/index.html
           ls -a
 
       # Step 4: Publishing files on files branch
