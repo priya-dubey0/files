@@ -1,0 +1,49 @@
+# Name of the GitHub Actions workflow
+name: download files
+
+# Defines when the workflow will run
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Scheduled to run every week on Sunday at midnight
+
+  # Allows manual triggering of the workflow from the GitHub Actions tab
+  workflow_dispatch:
+
+# Specifies the jobs to be executed in this workflow
+jobs:
+  # Defines a job named "build" that will run on the latest version of Ubuntu
+  build:
+    runs-on: ubuntu-latest
+
+    # Defines a sequence of steps to be executed as part of the job
+    steps:
+      # Step 1: Checkout the main repository under $GITHUB_WORKSPACE
+      - name: checkout our files
+        uses: actions/checkout@v4
+
+      # Step 2: Checkout a different repository and branch, placing it in a 'json' directory
+      - name: Checkout tools repo
+        uses: actions/checkout@v4
+        with:
+          repository: rgpvnotes-in/rgpv-raw-data
+          ref: publish
+          path: json
+
+      # Step 3: Set up Node.js version 20.0
+      - name: Use Node.js 20.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      # Step 4: Run commands in the Node.js environment and executing 'index.js'
+      - name: run app
+        run: |
+          ls -l
+          node index.js
+
+      # Step 5: Publishing files on files branch
+      - name: Deploying on github pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: files # The branch should deploy to.
+          folder: files # The folder to deploy.
