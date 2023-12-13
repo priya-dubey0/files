@@ -49,9 +49,9 @@ jobs:
           mv scheme syllabus timetable deploy/
           mv sitemap.xml deploy/sitemap.xml
           mv index.html deploy/index.html
-          mv scheme.json files/scheme.json
-          mv syllabus.json files/syllabus.json
-          mv timetable.json files/timetable.json
+          mv scheme.json deploy/scheme.json
+          mv syllabus.json deploy/syllabus.json
+          mv timetable.json deploy/timetable.json
           ls -a
 
       # Step 4: Publishing files on files branch
