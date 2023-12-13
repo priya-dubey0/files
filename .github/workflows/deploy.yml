@@ -44,7 +44,8 @@ jobs:
           npx sitemap < ../../listofurls.txt>websiteurls.txt
           mv websiteurls.txt ../../sitemap.xml
           cd ../../../
-          
+          ls -l
+          ls -a
 
       # Step 4: Publishing files on files branch
       - name: Deploying on github pages
