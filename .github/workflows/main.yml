@@ -43,6 +43,9 @@ jobs:
         run: |
           ls -l
           node index.js
+          mv json/scheme.json mv files/scheme.json
+          mv json/syllabus.json mv files/syllabus.json
+          mv json/timetable.json mv files/timetable.json
 
       # Step 5: Publishing files on files branch
       - name: Deploying on github pages
