@@ -1,0 +1,54 @@
+# Name of the GitHub Actions workflow
+name: deploy
+
+# Defines when the workflow will run
+on:
+  schedule:
+    - cron: "0 10 * * 0" # Scheduled to run every week on Sunday at 10 AM
+
+  # Allows manual triggering of the workflow from the GitHub Actions tab
+  workflow_dispatch:
+    
+permissions:
+  contents: write    
+
+# Specifies the jobs to be executed in this workflow
+jobs:
+  # Defines a job named "build" that will run on the latest version of Ubuntu
+  build:
+    runs-on: ubuntu-latest
+
+    # Defines a sequence of steps to be executed as part of the job
+    steps:
+      # Step 1: Checkout the main repository under $GITHUB_WORKSPACE
+      - name: checkout our files
+        uses: actions/checkout@v4
+        with:
+          ref: html
+          path: deploy
+
+      # Step 2: Set up Node.js version 20.0
+      - name: Use Node.js 20.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      # Step 3: Run commands in the Node.js environment and executing 'index.js'
+      - name: deploy app
+        run: |
+          cd deploy
+          ls -l
+          find scheme syllabus timetable -type f -name '*.html' | sed 's|^scheme/|https://random-website.com/scheme/|; s|^syllabus/|https://random-website.com/syllabus/|; s|^timetable/|https://random-website.com/timetable/|' > listofurls.txt
+          npm install --save sitemap
+          cd ./node_modules/.bin/
+          npx sitemap < ../../listofurls.txt>websiteurls.txt
+          mv websiteurls.txt ../../sitemap.xml
+          cd ../../
+          
+
+      # Step 4: Publishing files on files branch
+      - name: Deploying on github pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: deploy # The branch should deploy to.
+          folder: deploy # The folder to deploy.
