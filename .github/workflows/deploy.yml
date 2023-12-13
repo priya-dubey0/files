@@ -25,7 +25,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: html
-          path: deploy
 
       # Step 2: Set up Node.js version 20.0
       - name: Use Node.js 20.0
@@ -36,15 +35,15 @@ jobs:
       # Step 3: Run commands in the Node.js environment and executing 'index.js'
       - name: deploy app
         run: |
-          cd deploy
           ls -l
           find scheme syllabus timetable -type f -name '*.html' | sed 's|^scheme/|https://random-website.com/scheme/|; s|^syllabus/|https://random-website.com/syllabus/|; s|^timetable/|https://random-website.com/timetable/|' > listofurls.txt
           npm install --save sitemap
           cd ./node_modules/.bin/
           npx sitemap < ../../listofurls.txt>websiteurls.txt
           mv websiteurls.txt ../../sitemap.xml
-          cd ../../../
-          ls -l
+          cd ../../
+          mkdir deploy
+          mv scheme syllabus timetable deploy/
           ls -a
 
       # Step 4: Publishing files on files branch
