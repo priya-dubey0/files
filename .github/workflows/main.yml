@@ -8,6 +8,9 @@ on:
 
   # Allows manual triggering of the workflow from the GitHub Actions tab
   workflow_dispatch:
+    
+permissions:
+  contents: write    
 
 # Specifies the jobs to be executed in this workflow
 jobs:
