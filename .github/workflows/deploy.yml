@@ -43,7 +43,7 @@ jobs:
           cd ./node_modules/.bin/
           npx sitemap < ../../listofurls.txt>websiteurls.txt
           mv websiteurls.txt ../../sitemap.xml
-          cd ../../
+          cd ../../../
           
 
       # Step 4: Publishing files on files branch
