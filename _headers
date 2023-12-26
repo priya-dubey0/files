@@ -1,2 +1,3 @@
-*.pdf
-X-Robots-Tag: noindex
+
+/*.pdf
+  X-Robots-Tag: noindex
