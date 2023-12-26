@@ -52,6 +52,7 @@ jobs:
           mv scheme.json deploy/scheme.json
           mv syllabus.json deploy/syllabus.json
           mv timetable.json deploy/timetable.json
+          mv _headers deploy/_headers
           ls -a
 
       # Step 4: Publishing files on files branch
