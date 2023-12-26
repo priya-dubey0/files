@@ -54,6 +54,7 @@ jobs:
           mv syllabus.json deploy/syllabus.json
           mv timetable.json deploy/timetable.json
           mv _headers deploy/_headers
+          mv robots.txt deploy/robots.txt
           ls -a
 
       # Step 4: Publishing files on files branch
