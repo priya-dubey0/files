@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic Meta Tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- Page Title and Description -->
+    <title>rgpv syllabus and rgpv timetable</title>
+    <meta
+      name="description"
+      content="Download and view the latest RGPV syllabus and timetable in PDF."
+    />
+    <meta
+      name="keywords"
+      content="download, view, RGPV, syllabus, timetable, PDF"
+    />
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow" />
+    <link rel="sitemap" href="/sitemap.xml" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RGPV Syllabus and Timetable" />
+    <meta
+      name="twitter:description"
+      content="Download and view the latest RGPV syllabus and timetable in PDF."
+    />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RGPV Syllabus and Timetable" />
+    <meta property="og:title" content="RGPV Syllabus and Timetable" />
+    <meta
+      property="og:description"
+      content="Download and view the latest RGPV syllabus and timetable in PDF."
+    />
+
+    <!-- Other Tags -->
+    <link rel="prefetch" />
+    <meta name="audience" content="all" />
+    <meta name="rating" content="general" />
+    <meta name="generator" content="site" />
+    <meta name="google" content="translate" />
+    <meta name="theme-color" content="#4DBA87" />
+    <meta name="geo.placename" content="India" />
+    <meta name="revisit-after" content="1 days" />
+    <meta property="fb:admins" content="100012765211323" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+
+    <!-- Apple Touch Icon -->
+    <meta
+      name="apple-mobile-web-app-title"
+      content="www.rgpv-syllabus-timetable.in"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link
+      rel="apple-touch-icon"
+      href="/img/icons/apple-touch-icon-152x152.png"
+    />
+
+    <!-- Favicon and Icons -->
+    <link
+      rel="mask-icon"
+      href="/img/icons/safari-pinned-tab.svg"
+      color="#4DBA87"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/icons/favicon-16x16.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="/img/icons/msapplication-icon-144x144.png"
+    />
+
+    <!-- Search Engine Tags -->
+    <meta
+      name="search engines"
+      content="Aeiwi, Alexa, AllTheWeb, AltaVista, AOL Netfind, Anzwers, Canada, DirectHit, EuroSeek, Excite, Overture, Go, Google, HotBot, InfoMak, Kanoodle, Lycos, MasterSite, National Directory, Northern Light, SearchIt, SimpleSearch, WebsMostLinked, WebTop, What-U-Seek, AOL, Yahoo, WebCrawler, Infoseek, Excite, Magellan, LookSmart, CNET, Googlebot"
+    />
+
+    <!-- Pingback and OpenID -->
+    <link rel="pingback" href="https://www.rgpv-syllabus-timetable.in/" />
+    <link
+      rel="openid.delegate"
+      href="https://www.rgpv-syllabus-timetable.in/"
+    />
+
+    <!-- Content Type -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container" id="app">
+        <div class="">
+          <div
+            class="selector border border-primary w-100 p-5 mt-5 d-flex justify-content-center"
+          >
+            <div
+              v-if="!isTypeSelected"
+              class="d-flex justify-content-center flex-column"
+            >
+              <h2 class="mb-4 fw-bold">Please select what you want!</h2>
+              <div class="d-flex justify-content-center">
+                <button
+                  type="button"
+                  class="btn btn-primary me-3 fw-bold"
+                  @click="selectType('Timetable')"
+                >
+                  Timetable
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary me-3 fw-bold"
+                  @click="selectType('Syllabus')"
+                >
+                  Syllabus
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary me-3 fw-bold"
+                  @click="selectType('Scheme')"
+                >
+                  Scheme
+                </button>
+              </div>
+            </div>
+
+            <div
+              v-if="selecteditem"
+              class="d-flex justify-content-center flex-column"
+              :class="{ 'd-block': selecteditem}"
+              ref="selecteditemDiv"
+            >
+              <h2 class="mb-4 fw-bold">Please select what you want!</h2>
+              <div class="d-flex justify-content-center row">
+                <div class="col-12">
+                  <select
+                    class="form-select form-select-lg mb-3"
+                    aria-label="Large select example"
+                    v-model="selectedProgram"
+                    @change="tableContent"
+                  >
+                    <option selected value="0">Please select a program</option>
+                    <option
+                      :value="programObject.id"
+                      :key="programObject.id"
+                      v-for="programObject of programList"
+                    >
+                      {{ programObject.name}}
+                    </option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <select
+                    class="form-select form-select-lg mb-3"
+                    aria-label="Large select example"
+                    v-model="selectedSemester"
+                    @change="tableContent"
+                  >
+                    <option selected value="0">Please select a semester</option>
+                    <option value="1">1st Semester</option>
+                    <option value="2">2nd Semester</option>
+                    <option value="3">3rd Semester</option>
+                    <option value="4">4th Semester</option>
+                    <option value="5">5th Semester</option>
+                    <option value="6">6th Semester</option>
+                    <option value="7">7th Semester</option>
+                    <option value="8">8th Semester</option>
+                    <option value="9">9th Semester</option>
+                    <option value="10">10th Semester</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <select
+                    class="form-select form-select-lg mb-3"
+                    aria-label="Large select example"
+                    v-if="selecteditem === 'Timetable' ? false : true"
+                    v-model="selectedScheme"
+                    @change="tableContent"
+                  >
+                    <option selected value="0">Please select a scheme</option>
+                    <option
+                      :value="schemeObject.id"
+                      :key="schemeObject.id"
+                      v-for="schemeObject of schemeTypeList"
+                    >
+                      {{schemeObject.name}}
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="table-responsive border border-success-subtle w-100 px-5 pt-5 my-5"
+            :class="{ 'd-block': selecteditem}"
+            v-if="selecteditem"
+          >
+            <table class="table caption-top">
+              <caption class="h3">
+                List of {{selecteditem}}
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Descriptation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(tableItem, index) in selectedJson">
+                  <th scope="row">{{index +1}}</th>
+                  <td>
+                    <a
+                      class="text-decoration-none"
+                      :href="generateUrl(tableItem.url)"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{tableItem.semester + ' - '}} {{tableItem.title }}</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="module">
+    import {
+      createApp,
+      ref,
+    } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+
+    createApp({
+      setup() {
+        // Reactive variables
+        const isTypeSelected = ref(false);
+        const selecteditem = ref("");
+        const selectedJson = ref(null);
+        const selectedProgram = ref("0");
+        const selectedScheme = ref("0");
+        const selectedSemester = ref("0");
+        const selectedValueJsonData = ref("");
+
+        // Fetches JSON data from the specified URL and updates the table content.
+        const urlsArrray = [];
+
+        (async () => {
+          const request = new Request("./sitemap.xml");
+          const response = await fetch(request);
+          const xmlData = await response.text();
+          const parsedXmlData = new window.DOMParser().parseFromString(
+            xmlData,
+            "text/xml"
+          );
+
+          const elements = parsedXmlData.getElementsByTagName("url");
+
+          for (let i = 0; i < elements.length; i++) {
+            const currentElement = elements[i];
+
+            // Now you can access properties or perform operations on each element
+            const textContent = currentElement.childNodes[0].textContent;
+            urlsArrray.push(textContent);
+          }
+        })().then(() => {
+          console.log("urlsArrray finished");
+        });
+
+        const generateUrl = (url = "") => {
+          const fileName = (() => {
+            const urlArray = url.split("/");
+            return urlArray[urlArray.length - 1]
+              .replace(".pdf", "")
+              .replaceAll(" ", "%20");
+          })();
+
+          const fileUrl = urlsArrray.find((str) => str.includes(fileName));
+          return fileUrl;
+        };
+
+        // Handles the case when all three criteria are selected.
+        const handleAllSelected = () => {
+          // Logic for when all three criteria are selected
+          console.log("all 3 selected");
+          let tableData = [];
+          const programData = filterProgramData(
+            selectedValueJsonData.value,
+            selectedProgram.value
+          )[0];
+
+          const schemeData = (
+            programData.syllabus || programData.schemes
+          ).filter(
+            (schemeObject) => schemeObject.id === selectedScheme.value
+          )[0];
+
+          tableData = [...tableData, ...schemeData.pdfs];
+          tableData = tableData.filter((semesterObject) => {
+            let semesterName = "";
+
+            if (selectedSemester.value === "1") {
+              semesterName = "1st Semester";
+            } else if (selectedSemester.value === "2") {
+              semesterName = "2nd Semester";
+            } else if (selectedSemester.value === "3") {
+              semesterName = "3rd Semester";
+            } else if (selectedSemester.value === "4") {
+              semesterName = "4th Semester";
+            } else if (selectedSemester.value === "5") {
+              semesterName = "5th Semester";
+            } else if (selectedSemester.value === "6") {
+              semesterName = "6th Semester";
+            } else if (selectedSemester.value === "7") {
+              semesterName = "7th Semester";
+            } else if (selectedSemester.value === "8") {
+              semesterName = "8th Semester";
+            } else if (selectedSemester.value === "9") {
+              semesterName = "9th Semester";
+            } else if (selectedSemester.value === "10") {
+              semesterName = "10th Semester";
+            }
+
+            return (
+              semesterObject.semester === semesterName ||
+              semesterObject.semester === ""
+            );
+          });
+
+          selectedJson.value = tableData;
+        };
+
+        // Handles the case when program and semester are selected.
+        const handleProgramAndSemesterSelected = () => {
+          // Logic for when program and semester are selected
+          console.log("program & semester selected");
+
+          let tableData = [];
+          const programData = filterProgramData(
+            selectedValueJsonData.value,
+            selectedProgram.value
+          )[0];
+
+          if (programData.schemes || programData.syllabus) {
+            for (const schemeObject of programData.schemes ||
+              programData.syllabus) {
+              tableData = [...tableData, ...schemeObject.pdfs];
+            }
+          } else {
+            tableData = [...tableData, ...programData.programDataList];
+          }
+
+          tableData = tableData.filter((semesterObject) => {
+            let semesterName = "";
+
+            if (selectedSemester.value === "1") {
+              semesterName = "1st Semester";
+            } else if (selectedSemester.value === "2") {
+              semesterName = "2nd Semester";
+            } else if (selectedSemester.value === "3") {
+              semesterName = "3rd Semester";
+            } else if (selectedSemester.value === "4") {
+              semesterName = "4th Semester";
+            } else if (selectedSemester.value === "5") {
+              semesterName = "5th Semester";
+            } else if (selectedSemester.value === "6") {
+              semesterName = "6th Semester";
+            } else if (selectedSemester.value === "7") {
+              semesterName = "7th Semester";
+            } else if (selectedSemester.value === "8") {
+              semesterName = "8th Semester";
+            } else if (selectedSemester.value === "9") {
+              semesterName = "9th Semester";
+            } else if (selectedSemester.value === "10") {
+              semesterName = "10th Semester";
+            }
+
+            return (
+              semesterObject.semester === semesterName ||
+              semesterObject.semester === ""
+            );
+          });
+
+          selectedJson.value = tableData;
+        };
+
+        // Handles the case when program and scheme are selected.
+        const handleProgramAndSchemeSelected = () => {
+          console.log("program & scheme selected");
+          let tableData = [];
+          const programData = filterProgramData(
+            selectedValueJsonData.value,
+            selectedProgram.value
+          )[0];
+
+          const schemeData = (
+            programData.syllabus || programData.schemes
+          ).filter(
+            (schemeObject) => schemeObject.id === selectedScheme.value
+          )[0];
+
+          tableData = [...tableData, ...schemeData.pdfs];
+          selectedJson.value = tableData;
+        };
+
+        // Handles the case when only program is selected.
+        const handleOnlyProgramSelected = () => {
+          let tableData = [];
+          const programData = filterProgramData(
+            selectedValueJsonData.value,
+            selectedProgram.value
+          )[0];
+
+          if (programData.schemes || programData.syllabus) {
+            for (const schemeObject of programData.schemes ||
+              programData.syllabus) {
+              tableData = [...tableData, ...schemeObject.pdfs];
+            }
+          } else {
+            tableData = [...tableData, ...programData.programDataList];
+          }
+          selectedJson.value = tableData;
+        };
+
+        // Handles the case when none of the criteria are satisfied.
+        const handleNoneSelected = () => {
+          console.log("none selected");
+          let tableData = [];
+          const jsonData = selectedValueJsonData.value;
+
+          if (selecteditem.value == "Timetable") {
+            for (const programObject of jsonData) {
+              tableData = [...tableData, ...programObject.programDataList];
+            }
+          } else if (selecteditem.value == "Syllabus") {
+            for (const programObject of jsonData) {
+              for (const schemeObject of programObject.syllabus) {
+                tableData = [...tableData, ...schemeObject.pdfs];
+              }
+            }
+          } else if (selecteditem.value == "Scheme") {
+            for (const programObject of jsonData) {
+              for (const schemeObject of programObject.schemes) {
+                tableData = [...tableData, ...schemeObject.pdfs];
+              }
+            }
+          }
+
+          selectedJson.value = tableData;
+        };
+
+        // Filters program data based on the selected program value.
+        const filterProgramData = (jsonData, selectedProgramValue) => {
+          return jsonData.filter(
+            (programObject) =>
+              programObject.id === selectedProgramValue ||
+              programObject.programId === selectedProgramValue
+          );
+        };
+
+        // Generates table content based on selected criteria and updates selectedJson.
+        const tableContent = () => {
+          // Check the selected criteria and perform corresponding actions
+          if (
+            selectedProgram.value !== "0" &&
+            selectedScheme.value !== "0" &&
+            selectedSemester.value !== "0"
+          ) {
+            handleAllSelected();
+          } else if (
+            selectedProgram.value !== "0" &&
+            selectedSemester.value !== "0"
+          ) {
+            handleProgramAndSemesterSelected();
+          } else if (
+            selectedProgram.value !== "0" &&
+            selectedScheme.value !== "0"
+          ) {
+            handleProgramAndSchemeSelected();
+          } else if (selectedProgram.value !== "0") {
+            handleOnlyProgramSelected();
+          } else {
+            handleNoneSelected();
+          }
+        };
+
+        // Fetches JSON data from the specified URL and updates the table content.
+        const getJsonData = async (jsonUrl = "") => {
+          const request = new Request(jsonUrl);
+          const response = await fetch(request);
+          const jsonData = await response.json();
+          selectedValueJsonData.value = jsonData;
+          tableContent();
+        };
+
+        // Handles the selection of a type (Timetable, Syllabus, Scheme) and updates the UI accordingly.
+        const selectType = (selectedText = "") => {
+          isTypeSelected.value = !isTypeSelected.value;
+          selecteditem.value = selectedText;
+
+          let jsonUrl = "";
+          if (selecteditem.value == "Timetable") {
+            jsonUrl = "/timetable.json";
+          } else if (selecteditem.value == "Syllabus") {
+            jsonUrl = "/syllabus.json";
+          } else if (selecteditem.value == "Scheme") {
+            jsonUrl = "/scheme.json";
+          } else {
+            // Handle other cases if needed
+          }
+
+          getJsonData(jsonUrl);
+        };
+
+        // Predefined lists of program and scheme types
+        const programList = [
+          { name: "MBA", id: 4 },
+          { name: "M.Arch", id: 22 },
+          { name: "B.Tech", id: 24 },
+          { name: "B.Design", id: 25 },
+          { name: "BE", id: 1 },
+          { name: "BE-PTDC", id: 10 },
+          { name: "B.Tech.-PTDC", id: 42 },
+          { name: "B.Pharm.(PCI)", id: 43 },
+          { name: "B.Pharm", id: 2 },
+          { name: "B.Arch", id: 11 },
+          { name: "M.E.", id: 6 },
+          { name: "M.Tech.", id: 8 },
+          { name: "M.Tech.(Part Time)", id: 20 },
+          { name: "M.Pharm", id: 7 },
+          { name: "M.Pharm. PCI", id: 71 },
+          { name: "MCA 2 Year", id: 53 },
+          { name: "MCA", id: 5 },
+          { name: "MCA Dual Degree", id: 23 },
+          { name: "MBA Integrated", id: 21 },
+          { name: "DDI-PG", id: 12 },
+          { name: "Diploma", id: 3 },
+          { name: "Ph.D.", id: 44 },
+          { name: "Ph.D. Entrance", id: 52 },
+          { name: "PGCMB", id: 45 },
+          { name: "Pharm D.", id: 51 },
+        ];
+        const schemeTypeList = [
+          { name: "Grading System", id: 1 },
+          { name: "Non Grading System", id: 2 },
+          { name: "Lateral Entry", id: 3 },
+          { name: "CBCS", id: 4 },
+          { name: "CBGS", id: 5 },
+          { name: "As per COA", id: 7 },
+        ];
+
+        return {
+          selectType,
+          isTypeSelected,
+          selecteditem,
+          selectedJson,
+          selectedProgram,
+          selectedSemester,
+          selectedScheme,
+          programList,
+          schemeTypeList,
+          tableContent,
+          generateUrl,
+        };
+      },
+    }).mount("#app");
+  </script>
+</html>
