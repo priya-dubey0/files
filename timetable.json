@@ -1,5 +1,125 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA PM I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_I_II110724115316.pdf"
+      },
+      {
+        "title": "Time Table MBA PM II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_I_II110724115330.pdf"
+      },
+      {
+        "title": "Time Table MBA IV Semester Session Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_III_IV090724020015.pdf"
+      },
+      {
+        "title": "Time Table MBA RM IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_III_IV080724070436.pdf"
+      },
+      {
+        "title": "Time Table MBA RM III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_III_IV080724070352.pdf"
+      },
+      {
+        "title": "Time Table MBA FA II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_I_II080724070252.pdf"
+      },
+      {
+        "title": "Time Table MBA FA I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_I_II080724070026.pdf"
+      },
+      {
+        "title": "Time Table MBA HM II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_I_II080724065851.pdf"
+      },
+      {
+        "title": "Time Table MBA HM I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_I_II080724065810.pdf"
+      },
+      {
+        "title": "Time Table MBA MM II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_I_II080724065539.pdf"
+      },
+      {
+        "title": "Time Table MBA MM I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_I_II080724065448.pdf"
+      },
+      {
+        "title": "Time Table MBA FA IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_III_IV080724065350.pdf"
+      },
+      {
+        "title": "Time Table MBA FA III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_FA_III_IV080724065317.pdf"
+      },
+      {
+        "title": "Time Table MBA RM II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_I_II080724065155.pdf"
+      },
+      {
+        "title": "Time Table MBA RM I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_RM_I_II080724065117.pdf"
+      },
+      {
+        "title": "Time Table MBA MM IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_III_IV080724064928.pdf"
+      },
+      {
+        "title": "Time Table MBA MM III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_MM_III_IV080724064857.pdf"
+      },
+      {
+        "title": "Time Table MBA HM IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_III_IV080724064725.pdf"
+      },
+      {
+        "title": "Time Table MBA HM III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_HM_III_IV080724064651.pdf"
+      },
+      {
+        "title": "Time Table MBA  II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_I_II080724063929.pdf"
+      },
+      {
+        "title": "Time Table MBA  I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_I_II080724063901.pdf"
+      },
+      {
+        "title": "Time Table MBA PM IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_III_IV080724063748.pdf"
+      },
+      {
+        "title": "Time Table MBA PM III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_PM_III_IV080724063707.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Arch",
     "programId": 22,
@@ -238,6 +358,31 @@
     "programId": 11,
     "programDataList": [
       {
+        "title": "Time Table BArch CBGS System IV Semester Session Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BArch_IV_CBGC100724102447.pdf"
+      },
+      {
+        "title": "Time Table BArch IV Semester Session  Jun 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARch_I_IV080724070843.pdf"
+      },
+      {
+        "title": "Time Table BArch III Semester Session  Jun 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARch_I_IV080724070805.pdf"
+      },
+      {
+        "title": "Time Table BArch II Semester Session  Jun 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARch_I_IV080724070727.pdf"
+      },
+      {
+        "title": "Time Table BArch I Semester Session  Jun 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARch_I_IV080724070644.pdf"
+      },
+      {
         "title": "Time Table BArch CoA VI Semester Session MAY 2024",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BArch_CoA310524052338.pdf"
@@ -296,7 +441,7 @@
       {
         "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II050724054546.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II110724051646.pdf"
       },
       {
         "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
@@ -317,7 +462,7 @@
       {
         "title": "Time Table ME M.Tech II Semester Examination MAY 2024",
         "semester": "2nd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II050724054526.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_II090724042055.pdf"
       },
       {
         "title": "Time Table ME M.Tech I Semester Examination MAY 2024",
@@ -334,19 +479,15 @@
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
-    "programDataList": []
-  },
-  {
-    "programName": "M.Pharm",
-    "programId": 7,
     "programDataList": [
       {
-        "title": "Time Table MPHARMA  III Semester Session June 2024",
-        "semester": "3rd Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MPHarma 3050724053051.pdf"
+        "title": "Time Table M.Tech Part Time IV Semester Examination MAY 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_PT_IV110724052222.pdf"
       }
     ]
   },
+  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,
