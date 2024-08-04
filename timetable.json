@@ -151,6 +151,11 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech IV Semester Working Professional Session June 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_WP_IV290724055734.pdf"
+      },
+      {
         "title": "Time Table BTech  IV Semester Session June 2024",
         "semester": "4th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_IV_rotated050724122942.pdf"
@@ -181,14 +186,14 @@
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_ItoIV_CSBS_rotated050724122422.pdf"
       },
       {
-        "title": "Time Table BTech CSBS IV Semester Session June 2024",
-        "semester": "4th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_ItoIV_CSBS_rotated050724122406.pdf"
-      },
-      {
         "title": "Time Table BTech CSBS III Semester Session June 2024",
         "semester": "3rd Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_ItoIV_CSBS_rotated050724122345.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS IV Semester Session June 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_ItoIV_CSBS_rotated050724122406.pdf"
       },
       {
         "title": "Time Table BTech V Semester Examination MAY 2024",
@@ -487,7 +492,27 @@
       }
     ]
   },
-  { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
+  {
+    "programName": "M.Pharm",
+    "programId": 7,
+    "programDataList": [
+      {
+        "title": "Time Table MPharma Non PCI III Semester Session JUNE 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124900.pdf"
+      },
+      {
+        "title": "Time Table MPharma Non PCI II Semester Session JUNE 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124832.pdf"
+      },
+      {
+        "title": "Time Table MPharma Non PCI I Semester Session JUNE 2024",
+        "semester": "1st Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharmNonPCI_ItoIII300724124752.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Pharm. PCI",
     "programId": 71,
