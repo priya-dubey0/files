@@ -34,14 +34,9 @@
     "programId": 10,
     "programDataList": [
       {
-        "title": "Time Table BE PTDC VII SEM Session DEC 2024",
+        "title": "Time Table BE Part Time VII Semester",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH PTDC_VII_VIII041124124045.pdf"
-      },
-      {
-        "title": "Time Table BE PTDC VIII SEM Session DEC 2024",
-        "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH PTDC_VII_VIII041124124021.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_PT221124031622.pdf"
       }
     ]
   },
@@ -50,14 +45,14 @@
     "programId": 42,
     "programDataList": [
       {
-        "title": "Time Table BTech PTDC VIII SEM Session DEC 2024",
+        "title": "Time Table BTech Part Time VIII Semester",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH PTDC_VII_VIII041124123939.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_PT221124031712.pdf"
       },
       {
-        "title": "Time Table BTech PTDC VII SEM Session DEC 2024",
+        "title": "Time Table BTech Part Time VII Semester",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH PTDC_VII_VIII041124123908.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_PT221124031650.pdf"
       }
     ]
   },
