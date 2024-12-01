@@ -1207,8 +1207,8 @@
         "pdfs": [
           {
             "semester": "1st Semester",
-            "title": "Bachelor of Engg. B.E. (Common to all) A/B Group",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/090713090713122520.pdf"
+            "title": "Scheme B.E. Common to all A/B Group I YEAR",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/SyllabusBE_I and II Common271124041735.pdf"
           },
           {
             "semester": "2nd Semester",
@@ -1747,6 +1747,16 @@
         "id": 2,
         "pdfs": [
           {
+            "semester": "1st Semester",
+            "title": "Scheme B.E. Common to all A/B Group I YEAR",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/BE I Year271124041521.pdf"
+          },
+          {
+            "semester": "3rd Semester",
+            "title": "Sch BE Electronics and Communication Eng III Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/III EC271124011823.pdf"
+          },
+          {
             "semester": "4th Semester",
             "title": "Textile Engg.",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV TX (NG) 260811054243.pdf"
@@ -1755,6 +1765,11 @@
             "semester": "4th Semester",
             "title": "Industrial Engineering and Management",
             "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV IEM110112042323.pdf"
+          },
+          {
+            "semester": "4th Semester",
+            "title": "Sch BE Electronics and Communication Eng IV Sem",
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/IV EC271124011904.pdf"
           },
           {
             "semester": "5th Semester",
@@ -4447,7 +4462,7 @@
           {
             "semester": "3rd Semester",
             "title": "Scheme MTech Mining Engineering III Sem",
-            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Scheme MTech -Mining E III191124031422.pdf"
+            "url": "https://www.rgpv.ac.in/CDN/PubContent/Scheme/Sch MTech Mining Eng III291124033232.pdf"
           },
           {
             "semester": "4th Semester",
