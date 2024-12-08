@@ -6,6 +6,36 @@
     "programId": 24,
     "programDataList": [
       {
+        "title": "Time Table BTech CSBS VI Sem Examination Session Dec 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 5 6051224111512.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS V Sem Examination Session Dec 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 5 6051224111439.pdf"
+      },
+      {
+        "title": "Time Table BTech CSBS IV Sem Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech CSBS 4 5 6051224111411.pdf"
+      },
+      {
+        "title": "Time Table BTech VI Semester Session DEC 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech6041224030915.pdf"
+      },
+      {
+        "title": "Time Table BTech V Semester Session DEC 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech5041224030344.pdf"
+      },
+      {
+        "title": "Time Table BTech IV Semester Session DEC 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech4041224030301.pdf"
+      },
+      {
         "title": "Time Table BTech VII Semester Session DEC 2024",
         "semester": "7th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_VII071124123653.pdf"
@@ -28,7 +58,22 @@
     ]
   },
   { "programName": "B.Design", "programId": 25, "programDataList": [] },
-  { "programName": "BE", "programId": 1, "programDataList": [] },
+  {
+    "programName": "BE",
+    "programId": 1,
+    "programDataList": [
+      {
+        "title": "Time Table BE CBGS VIII Semester Examination Session Dec 2024",
+        "semester": "8th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE CBGS 7 8061224032312.pdf"
+      },
+      {
+        "title": "Time Table BE CBGS VII Semester Examination Session Dec 2024",
+        "semester": "7th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE CBGS 7 8061224032242.pdf"
+      }
+    ]
+  },
   {
     "programName": "BE-PTDC",
     "programId": 10,
@@ -60,6 +105,21 @@
     "programName": "B.Pharm.(PCI)",
     "programId": 43,
     "programDataList": [
+      {
+        "title": "Time Table BPharma PCI VI Semester CBGS  Session DEC 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS456041224031219.pdf"
+      },
+      {
+        "title": "Time Table BPharma PCI V Semester CBGS  Session DEC 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS456041224031156.pdf"
+      },
+      {
+        "title": "Time Table BPharma PCI IV Semester CBGS  Session DEC 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BPhPCICBGS456041224031130.pdf"
+      },
       {
         "title": "Time Table BPharma PCI VIII Semester Session DEC 2024",
         "semester": "8th Semester",
@@ -119,15 +179,45 @@
       }
     ]
   },
-  { "programName": "M.E.", "programId": 6, "programDataList": [] },
-  { "programName": "M.Tech.", "programId": 8, "programDataList": [] },
+  {
+    "programName": "M.E.",
+    "programId": 6,
+    "programDataList": [
+      {
+        "title": "Time Table ME/MTech III Semester Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_III061224053029.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Tech.",
+    "programId": 8,
+    "programDataList": [
+      {
+        "title": "Time Table ME/MTech III Semester Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MTech_III061224053128.pdf"
+      }
+    ]
+  },
   {
     "programName": "M.Tech.(Part Time)",
     "programId": 20,
     "programDataList": []
   },
   { "programName": "M.Pharm", "programId": 7, "programDataList": [] },
-  { "programName": "M.Pharm. PCI", "programId": 71, "programDataList": [] },
+  {
+    "programName": "M.Pharm. PCI",
+    "programId": 71,
+    "programDataList": [
+      {
+        "title": "Time Table M.Pharmacy PCI III Semester Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MPharm_III061224053249.pdf"
+      }
+    ]
+  },
   {
     "programName": "MCA 2 Year",
     "programId": 53,
@@ -149,6 +239,21 @@
     "programName": "MCA Dual Degree",
     "programId": 23,
     "programDataList": [
+      {
+        "title": "Time Table MCA INT VI Sem Examination Session Dec 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 4 5 6051224111723.pdf"
+      },
+      {
+        "title": "Time Table MCA INT V Sem Examination Session Dec 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 4 5 6051224111652.pdf"
+      },
+      {
+        "title": "Time Table MCA INT IV Sem Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MCA 4 5 6051224111627.pdf"
+      },
       {
         "title": "Time Table MCA DUAL DEGREE X Semester Session DEC 2024",
         "semester": "10th Semester",
@@ -175,6 +280,21 @@
     "programName": "MBA Integrated",
     "programId": 21,
     "programDataList": [
+      {
+        "title": "Time Table MBA INT VI Sem Examination Session Dec 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 4 5 6051224111859.pdf"
+      },
+      {
+        "title": "Time Table MBA INT V Sem Examination Session Dec 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 4 5 6051224111836.pdf"
+      },
+      {
+        "title": "Time Table MBA INT IV Sem Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/INT MBA 4 5 6051224111816.pdf"
+      },
       {
         "title": "Time Table MBA INT X Semester Session DEC 2024",
         "semester": "10th Semester",
@@ -206,6 +326,16 @@
     "programName": "Pharm D.",
     "programId": 51,
     "programDataList": [
+      {
+        "title": "Time Table PHARMA D III Year Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma D II and III051224112235.pdf"
+      },
+      {
+        "title": "Time Table PHARMA D II Year Examination Session Dec 2024",
+        "semester": "2nd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/pharma D II and III051224112037.pdf"
+      },
       {
         "title": "Time Table Pharm D V Year Session DEC 2024",
         "semester": "5th Semester",
