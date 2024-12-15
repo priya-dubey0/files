@@ -1,10 +1,105 @@
 [
-  { "programName": "MBA", "programId": 4, "programDataList": [] },
-  { "programName": "M.Arch", "programId": 22, "programDataList": [] },
+  {
+    "programName": "MBA",
+    "programId": 4,
+    "programDataList": [
+      {
+        "title": "Time Table MBA Rural Management IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA RM 3 4111224124602.pdf"
+      },
+      {
+        "title": "Time Table MBA Rural Management III Sem Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA RM 3 4111224124520.pdf"
+      },
+      {
+        "title": "Time Table MBA Healthcare Management III Sem Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA HM 3 4111224124428.pdf"
+      },
+      {
+        "title": "Time Table MBA Healthcare Management IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA HM 3 4111224124405.pdf"
+      },
+      {
+        "title": "Time Table MBA Marketing Management IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA MM 3 4111224124318.pdf"
+      },
+      {
+        "title": "Time Table MBA Marketing Management III Sem Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA MM 3 4111224124255.pdf"
+      },
+      {
+        "title": "Time Table MBA Financial Administration III Sem Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 3 4111224124127.pdf"
+      },
+      {
+        "title": "Time Table MBA Financial Administration IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA FA 3 4111224124057.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical Management IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 3 4111224123907.pdf"
+      },
+      {
+        "title": "Time Table MBA Pharmaceutical Management III Sem Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/MBA PM 3 4111224123809.pdf"
+      },
+      {
+        "title": "Time Table MBA Plain IV Semester Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_III_IV091224055615.pdf"
+      },
+      {
+        "title": "Time Table MBA Plain III Semester Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MBA_III_IV091224055555.pdf"
+      }
+    ]
+  },
+  {
+    "programName": "M.Arch",
+    "programId": 22,
+    "programDataList": [
+      {
+        "title": "Time Table MARCH IV Sem Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MARCH_III_IV111224012532.pdf"
+      },
+      {
+        "title": "Time Table MARCH III Sem Examination Session Dec 2024",
+        "semester": "3rd Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_MARCH_III_IV111224012509.pdf"
+      }
+    ]
+  },
   {
     "programName": "B.Tech",
     "programId": 24,
     "programDataList": [
+      {
+        "title": "Time Table Btech Working Professional V Sem Session Dec 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH WP 4 5111224125432.pdf"
+      },
+      {
+        "title": "Time Table Btech Working Professional IV Sem Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTECH WP 4 5111224125317.pdf"
+      },
+      {
+        "title": "Time Table BTech V Semester Session DEC 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BTech_V111224124640.pdf"
+      },
       {
         "title": "Time Table BTech CSBS VI Sem Examination Session Dec 2024",
         "semester": "6th Semester",
@@ -24,11 +119,6 @@
         "title": "Time Table BTech VI Semester Session DEC 2024",
         "semester": "6th Semester",
         "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech6041224030915.pdf"
-      },
-      {
-        "title": "Time Table BTech V Semester Session DEC 2024",
-        "semester": "5th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BTech5041224030344.pdf"
       },
       {
         "title": "Time Table BTech IV Semester Session DEC 2024",
@@ -65,12 +155,12 @@
       {
         "title": "Time Table BE CBGS VIII Semester Examination Session Dec 2024",
         "semester": "8th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE CBGS 7 8061224032312.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BE091224055514.pdf"
       },
       {
         "title": "Time Table BE CBGS VII Semester Examination Session Dec 2024",
         "semester": "7th Semester",
-        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/BE CBGS 7 8061224032242.pdf"
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BE091224055452.pdf"
       }
     ]
   },
@@ -152,6 +242,21 @@
     "programName": "B.Arch",
     "programId": 11,
     "programDataList": [
+      {
+        "title": "Time Table BARCH IV Sem CoA Examination Session Dec 2024",
+        "semester": "4th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARCH_IV_VI091224023712.pdf"
+      },
+      {
+        "title": "Time Table BARCH V Sem CoA Examination Session Dec 2024",
+        "semester": "5th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARCH_IV_VI091224023651.pdf"
+      },
+      {
+        "title": "Time Table BARCH VI Sem CoA  Examination Session Dec 2024",
+        "semester": "6th Semester",
+        "url": "https://www.rgpv.ac.in/CDN/PubContent/TT/TT_BARCH_IV_VI091224023528.pdf"
+      },
       {
         "title": "Time Table B Arch CBGS VII Semester Session DEC 2024",
         "semester": "7th Semester",
